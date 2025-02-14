@@ -1,0 +1,29 @@
+/* Definindo uma imagem de fundo para a seção hero */
+.hero-section {
+    background-image: url('https://www.example.com/imagem-de-fundo.jpg'); /* Coloque o URL da imagem aqui */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
